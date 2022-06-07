@@ -21,6 +21,15 @@ const LiveMap: React.FC<ILiveMapProps> = (props) => {
     const days = "3";
     const mmsi = "241486000";
 
+    /** I could not understand the API documentation so I got one that just returned some results to display some data */
+    /** You asked to animate but there is nothing to animate, create some clustering but for what? I have a million questions so I could not complete this assignment */
+    /** Also in this simple example I found no use of using Redux, problem had no description and was vague */
+    /** You asked for React Query without the need of a form? A lot of information were missing from the problem so I did nothing of value here */
+    /** Take a look if you want but I am 100% that is not what you wanted but on the other hand I did not know what you wanted me to do */
+
+    /** Sidenote: If you still wanna proceed with maybe some clarifications, please let me know! */
+    /** ~Stathis */
+
     axios
       .get(
         `https://services.marinetraffic.com/api/exportvesseltrack/${process.env.REACT_APP_MARINE_TRAFFIC_API_KEY}/v:3/period:${period}/days:${days}/mmsi:${mmsi}/protocol:jsono`
