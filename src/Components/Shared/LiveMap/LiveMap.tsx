@@ -50,6 +50,7 @@ const LiveMap: React.FC<ILiveMapProps> = (props) => {
             key={index}
             lat={parseFloat(item.LAT)}
             lng={parseFloat(item.LON)}
+            title={item.TIMESTAMP}
           />
         ))}
       </GoogleMap>
